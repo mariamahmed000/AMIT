@@ -1,0 +1,83 @@
+body{
+    background-image: url("images/6.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.2);
+    height: auto;
+}
+
+.nav img{
+    width: 10%;
+    height: 55px;
+}
+.nav .nav-links{
+    float: right;
+}
+.nav .nav-links ul li{
+     float: right;
+     list-style: none;
+     
+}
+
+.nav .nav-links ul li a{
+    text-decoration: none;
+    padding: 0px 20px 0px 25px ;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+.section{
+    width: 100%;
+}
+
+.section .card1 ,.section .card3 ,.section .card2 ,.section .card4 {
+    background-image: url("images/3.webp");
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 20px;
+    float: left;
+    margin: 87px 19px 35px 35px;
+    color: white;
+    padding: 8px
+}
+.clear{
+    clear: both;
+}
+.section .card1 .card-img,
+.section .card2 .card-img,
+.section .card3 .card-img,
+.section .card4 .card-img{
+    width: 100%;
+    text-align: center; 
+}
+
+.section .card1 .card-img img ,
+.section .card2 .card-img img ,
+.section .card3 .card-img img ,
+.section .card4 .card-img img {
+   border-radius: 50%;
+   width: 93px;
+    height: 89px;
+    margin: 25px 0px 5px 5px;
+}
+
+.section .card1 h3,
+.section .card2 h3,
+.section .card3 h3,
+.section .card4 h3{
+    margin: 5px 0px 4px 23px;
+}
+
+.section .card1 p,
+.section .card2 p,
+.section .card3 p,
+.section .card4 p{
+    margin: 5px;
+    padding: 0px 0px 25px 19px;
+
+}
